@@ -1613,10 +1613,14 @@ a:hover {
 
 .header .logo a img.logo-light {
   opacity: 1;
+    width: 40px;
+    height: 40px;
 }
 
 .header .logo a img.logo-dark {
   opacity: 0;
+    width: 40px;
+    height: 40px;
 }
 
 .header.header-fixed .logo a img.logo-light {

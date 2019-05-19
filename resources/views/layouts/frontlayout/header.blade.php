@@ -33,10 +33,10 @@
                 <div class="logo">
                     <a data-toggle="collapse" data-target=".navbar-collapse.show" class="navbar-brand" href="index-kenburns.html">
                         <!-- Logo White Starts -->
-                        <img id="logo-light" class="logo-light" src="{{asset('images/frontend_images/styleswitcher/logos/yellow.png')}}" alt="logo-light" />
+                        <img id="logo-light" class="logo-light" src="{{asset('images/frontend_images/styleswitcher/logos/logos-dark/yellow.png')}}" alt="logo-light" />
                         <!-- Logo White Ends -->
                         <!-- Logo Black Starts -->
-                        <img id="logo-dark" class="logo-dark" src="{{asset('images/frontend_images/styleswitcher/logos/yellow.png')}}" alt="logo-dark" />
+                        <img id="logo-dark" class="logo-dark" src="{{asset('images/frontend_images/styleswitcher/logos/logos-dark/yellow.png')}}" alt="logo-dark" />
                         <!-- Logo Black Ends -->
                     </a>
                 </div>
