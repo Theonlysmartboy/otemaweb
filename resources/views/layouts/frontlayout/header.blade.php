@@ -54,10 +54,10 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse navbar-responsive-collapse">
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav" id="main-navigation">
-                        <li class="active"><a href="index-kenburns.html"><i class="fa fa-home"></i> Home</a></li>
-                        <li><a href="about.html"><i class="fa fa-user"></i> About Us</a></li>
+                        <li class="active"><a href="index-kenburns.html"><i class="fa fa-home"></i> HOME</a></li>
+                        <li><a href="about.html"><i class="fa fa-user"></i> ABOUT US</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-image"></i> portfolio <i class="fa fa-angle-down icon-angle"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-image"></i> SERVICES <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="portfolio-2-columns.html">Portfolio 2 Columns</a></li>
                                 <li><a href="portfolio-3-columns.html">Portfolio 3 Columns</a></li>
@@ -71,7 +71,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-edit"></i> Blog <i class="fa fa-angle-down icon-angle"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-edit"></i> PORTFOLIO <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="blog-right-sidebar.html">Right Sidebar</a></li>
                                 <li><a href="blog-left-sidebar.html">Left Sidebar</a></li>
@@ -80,7 +80,7 @@
                             </ul>
                         </li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text-o"></i> pages <i class="fa fa-angle-down icon-angle"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text-o"></i> PRICING <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li><a href="register.html">Register page</a></li>
                                 <li><a href="login.html">Login page</a></li>
@@ -97,7 +97,7 @@
                          <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
                         @if (Route::has('login'))
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-file-text-o"></i> My Account <i class="fa fa-angle-down icon-angle"></i></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle-o"></i> MY ACCOUNT <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                     @auth
                                         <li><a href="{{ url('/home') }}">Home</a></li>
