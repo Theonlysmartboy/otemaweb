@@ -5797,9 +5797,9 @@ h4.panel-title a.collapsed:before {
   content: "\f16d";
 }
 .social-icons ul li a[title="instagram"]:hover{
-        background: -moz-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
-    background: -webkit-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
-    background: radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
+    background: -moz-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 25%, rgba(252,204,99,1) 40%, rgba(251,173,80,1) 60%, rgba(205,72,107,1) 80%, rgba(76,104,215,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 25%, rgba(252,204,99,1) 40%, rgba(251,173,80,1) 60%, rgba(205,72,107,1) 80%, rgba(76,104,215,1) 100%);
+    background: radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 25%, rgba(252,204,99,1) 40%, rgba(251,173,80,1) 60%, rgba(205,72,107,1) 80%, rgba(76,104,215,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a3ab9",endColorstr="#4c68d7",GradientType=1);
 }
 .social-icons ul li a[title="linkedin"]:before {

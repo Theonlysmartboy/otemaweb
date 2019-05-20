@@ -9,12 +9,12 @@
 <!-- Live Style Switcher Starts - demo only -->
 <div id="switcher" class="">
     <div class="content-switcher">
-        <h4>STYLE SWITCHER</h4>
-                <p>BODY SKIN</p>
+        <h4>OUR SOCIAL MEDIA SITES</h4>
+                <p>WHATS APP</p>
 
         <hr />
-
-        <p>LAYOUT STYLE</p>
+        <p>FACEBOOK</p>
+                <a class="facebook" href="https://www.facebook.com/otelmaltd/" title="facebook" target="_blank"><i class="fa fa-facebook-official"></i></a>
                 <hr />
         <div id="hideSwitcher">&times;</div>
 
