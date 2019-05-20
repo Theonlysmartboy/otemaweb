@@ -177,7 +177,7 @@
             <!-- Main Heading Starts -->
             <div class="text-center top-text">
                 <h1><span>Our</span> Services</h1>
-                <h4>What We Doing</h4>
+                <h4>What We Do</h4>
             </div>
             <!-- Main Heading Starts -->
             <!-- Divider Starts -->
@@ -192,12 +192,12 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-leaf" data-headline="Creative Solutions"></span>
+                    <span class="services-box-item-cover fa fa-cloud" data-headline="Web Design & development"></span>
                     <!-- Service Item Cover Ends -->
                     <!-- Service Item Content Starts -->
-                    <div class="services-box-item-content fa fa-leaf">
-                        <h2>Creative Solutions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                    <div class="services-box-item-content fa fa-cloud">
+                        <h2>Web Design & development</h2>
+                        <p>We design and develop responsive and aesthetic websites using the latest technologies and incorporating various tools that will help you or your businesses achieve growth and exhibit a strong online presence.</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
@@ -206,12 +206,12 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-anchor" data-headline="Featured Services"></span>
+                    <span class="services-box-item-cover fa fa-desktop" data-headline="Desktop Application Development"></span>
                     <!-- Service Item Cover Ends -->
                     <!-- Service Item Content Starts -->
-                    <div class="services-box-item-content fa fa-anchor">
-                        <h2>Featured Services</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                    <div class="services-box-item-content fa fa-desktop">
+                        <h2>Desktop application development</h2>
+                        <p>We udnerstand that some solutions are best deployed locally on the local machine. we thus create amazing and modern looking custom or proprietary desktop applications that can run on any operating system using modern technology</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
@@ -220,12 +220,12 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-comments-o" data-headline="Custom Design"></span>
+                    <span class="services-box-item-cover fa fa-mobile" data-headline="Mobile apps Development"></span>
                     <!-- Service Item Cover Ends -->
                     <!-- Service Item Content Starts -->
-                    <div class="services-box-item-content fa fa-comments-o">
-                        <h2>Custom Design</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                    <div class="services-box-item-content fa fa-mobile-phone">
+                        <h2>Mobile Apps Development</h2>
+                        <p>Through numerous research and customization, we have mastered the art of delivering customer-centric range of scalable and business oriented mobile development services. We create apps for all platforms; Android IOS etc</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
@@ -234,11 +234,11 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-support" data-headline="Technical Support"></span>
+                    <span class="services-box-item-cover fa fa-shopping-cart" data-headline="E commerce Solutions"></span>
                     <!-- Service Item Cover Ends -->
-                    <div class="services-box-item-content fa fa-support">
-                        <h2>Technical Support</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                    <div class="services-box-item-content fa fa-shopping-basket">
+                        <h2>E commerce Solutions</h2>
+                        <p>e-commerce development services for online merchant solutions on peer-to-peer platforms, social networking sites, and group buying marketplaces. We program your web store to third-party platforms, migrate data sets and legacy software to preserve data and create custom applications like shipping and drop-ship plugins through third-party APIs</p>
                     </div>
                 </div>
                 <!-- Service Item Ends -->

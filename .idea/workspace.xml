@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e26dd8e-20d0-4e3d-8ce2-48cb91485ee0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/frontend_css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/frontend_css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/frontlayout/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/frontlayout/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -98,19 +97,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/footer.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="105" column="73" selection-start-line="105" selection-start-column="73" selection-end-line="105" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/frontend_css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-388">
-              <caret line="5771" selection-start-line="5771" selection-end-line="5771" />
+            <state relative-caret-position="454">
+              <caret line="246" column="75" lean-forward="true" selection-start-line="246" selection-start-column="75" selection-end-line="246" selection-end-column="75" />
+              <folding>
+                <element signature="e#103#16036#0#HTML" />
+                <element signature="e#16113#20066#0#HTML" />
+                <element signature="e#20137#21391#0#HTML" />
+                <element signature="e#22238#23039#0#HTML" />
+                <element signature="e#23145#23948#0#HTML" />
+                <element signature="e#24054#24857#0#HTML" />
+                <element signature="e#24412#24779#0#HTML" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>faceb</find>
+      <find>facebook</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -137,9 +137,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php" />
-        <option value="$PROJECT_DIR$/public/css/frontend_css/style.css" />
         <option value="$PROJECT_DIR$/resources/views/layouts/frontlayout/footer.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/frontend_css/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -264,14 +266,6 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="frontlayout" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -314,7 +308,7 @@
       <updated>1558274597842</updated>
       <workItem from="1558274603079" duration="3259000" />
       <workItem from="1558279004852" duration="2336000" />
-      <workItem from="1558333650949" duration="3894000" />
+      <workItem from="1558333650949" duration="8885000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit on the second machine">
       <created>1558275240959</created>
@@ -351,11 +345,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558280767256</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added soccial media accounts and links to them with relevant styling">
+      <created>1558337715469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558337715470</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added soccial media accounts and links to them with relevant styling">
+      <created>1558344495650</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558344495650</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9489000" />
+    <option name="totallyTimeSpent" value="14480000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -393,19 +401,10 @@
     <MESSAGE value="Initial commit on the second machine" />
     <MESSAGE value="Begun updating images" />
     <MESSAGE value="Modified the menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modified the menu" />
+    <MESSAGE value="Added soccial media accounts and links to them with relevant styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added soccial media accounts and links to them with relevant styling" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
@@ -413,17 +412,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/frontend_css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-388">
-          <caret line="5771" selection-start-line="5771" selection-end-line="5771" />
+        <state relative-caret-position="-65">
+          <caret line="5771" column="37" selection-start-line="5771" selection-start-column="29" selection-end-line="5771" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="105" column="73" selection-start-line="105" selection-start-column="73" selection-end-line="105" selection-end-column="73" />
+        <state relative-caret-position="190">
+          <caret line="77" column="78" lean-forward="true" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="246" column="75" lean-forward="true" selection-start-line="246" selection-start-column="75" selection-end-line="246" selection-end-column="75" />
+          <folding>
+            <element signature="e#103#16036#0#HTML" />
+            <element signature="e#16113#20066#0#HTML" />
+            <element signature="e#20137#21391#0#HTML" />
+            <element signature="e#22238#23039#0#HTML" />
+            <element signature="e#23145#23948#0#HTML" />
+            <element signature="e#24054#24857#0#HTML" />
+            <element signature="e#24412#24779#0#HTML" />
+          </folding>
         </state>
       </provider>
     </entry>
