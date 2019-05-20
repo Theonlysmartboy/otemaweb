@@ -72,7 +72,7 @@
                 <div class="social-icons">
                     <ul class="social">
                         <li>
-                            <a class="twitter" href="#" title="twitter"></a>
+                            <a class="twitter" href="https://twitter.com/Otema19882474" title="twitter"></a>
                         </li>
                         <li>
                             <a class="facebook" href="#" title="facebook"></a>
@@ -81,10 +81,16 @@
                             <a class="google" href="#" title="google"></a>
                         </li>
                         <li>
-                            <a class="linkedin" href="#" title="linkedin"></a>
+                            <a class="instagram" href="#" title="instagram"></a>
                         </li>
                         <li>
-                            <a class="youtube" href="#" title="youtube"></a>
+                            <a class="skype" href="#" title="skype"></a>
+                        </li>
+                        <li>
+                            <a class="linkedin" href="https://www.linkedin.com/company/otema-technologies/?viewAsMember=true" title="linkedin"></a>
+                        </li>
+                        <li>
+                            <a class="youtube" href="https://www.youtube.com/channel/UCMW5JDxrVXhyVJFyRD94eTQ?view_as=subscriber" title="youtube"></a>
                         </li>
                     </ul>
                 </div>
@@ -97,7 +103,7 @@
             <div class="row">
                 <div class="col-xs-12">
                     <!-- Copyright Text Starts -->
-                    <p class="text-center"><a href="https://www.templatespoint.net" target="_blank">Templates Point</a></p>
+                    <p class="text-center"><a href="#" target="_blank">Ⓒ 2018 All rights reserved.</a></p>
                     <!-- Copyright Text Ends -->
                 </div>
             </div>

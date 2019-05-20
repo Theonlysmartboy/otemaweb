@@ -5769,39 +5769,52 @@ h4.panel-title a.collapsed:before {
   font-size: 30px;
   text-align: center;
 }
-
 .social-icons ul li a[title="facebook"]:before {
   content: "\f09a";
 }
-
+.social-icons ul li a[title="facebook"]:hover{
+    background-color: #3b5998;
+}
 .social-icons ul li a[title="twitter"]:before {
   content: "\f099";
 }
-
+.social-icons ul li a[title="twitter"]:hover{
+    background-color:#38A1F3;
+}
 .social-icons ul li a[title="google"]:before {
   content: "\f0d5";
 }
-
+.social-icons ul li a[title="google"]:hover{
+    background-color:#DD4B39;
+}
 .social-icons ul li a[title="skype"]:before {
   content: "\f17e";
 }
-
+.social-icons ul li a[title="skype"]:hover{
+    background-color:#00AFF0;
+}
 .social-icons ul li a[title="instagram"]:before {
   content: "\f16d";
 }
-
+.social-icons ul li a[title="instagram"]:hover{
+        background: -moz-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
+    background: radial-gradient(circle, rgba(138,58,185,1) 0%, rgba(233,89,80,1) 15%, rgba(188,42,141,1) 17%, rgba(252,204,99,1) 23%, rgba(251,173,80,1) 79%, rgba(205,72,107,1) 83%, rgba(76,104,215,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8a3ab9",endColorstr="#4c68d7",GradientType=1);
+}
 .social-icons ul li a[title="linkedin"]:before {
   content: "\f0e1";
 }
-
-.social-icons ul li a[title="instagram"]:before {
-  content: "\f16d";
+.social-icons ul li a[title="linkedin"]:hover{
+    background-color:#0077B5;
 }
 
 .social-icons ul li a[title="youtube"]:before {
   content: "\f167";
 }
-
+.social-icons ul li a[title="youtube"]:hover{
+    background-color: #ff0c19;
+}
 
 /* Back To Top
 ---------------------------------------- */
