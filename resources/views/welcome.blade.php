@@ -246,11 +246,11 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-cogs" data-headline="Responsive Design"></span>
+                    <span class="services-box-item-cover fa fa-cloud-upload" data-headline="Web Portal Development"></span>
                     <!-- Service Item Cover Ends -->
                     <!-- Service Item Content Starts -->
-                    <div class="services-box-item-content fa fa-cogs">
-                        <h2>Responsive Design</h2>
+                    <div class="services-box-item-content fa fa-cloud-download">
+                        <h2>Web Portal Development</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
                     </div>
                     <!-- Service Item Content Ends -->
