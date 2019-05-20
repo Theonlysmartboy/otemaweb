@@ -31,7 +31,7 @@
             <nav class="navbar">
                 <!-- Logo Starts -->
                 <div class="logo">
-                    <a data-toggle="collapse" data-target=".navbar-collapse.show" class="navbar-brand" href="index-kenburns.html">
+                    <a data-toggle="collapse" data-target=".navbar-collapse.show" class="navbar-brand" href="{{url('/')}}">
                         <!-- Logo White Starts -->
                         <img id="logo-light" class="logo-light" src="{{asset('images/frontend_images/styleswitcher/logos/logos-dark/yellow.png')}}" alt="logo-light" />
                         <!-- Logo White Ends -->
@@ -54,8 +54,8 @@
                 <div id="navbarSupportedContent" class="collapse navbar-collapse navbar-responsive-collapse">
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav" id="main-navigation">
-                        <li class="active"><a href="index-kenburns.html"><i class="fa fa-home"></i> HOME</a></li>
-                        <li><a href="about.html"><i class="fa fa-user"></i> ABOUT US</a></li>
+                        <li class="active"><a href="{{url('/')}}"><i class="fa fa-home"></i> HOME</a></li>
+                        <li><a href="{{url('/about.html')}}"><i class="fa fa-user"></i> ABOUT US</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-image"></i> SERVICES <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
