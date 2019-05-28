@@ -55,7 +55,7 @@
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav" id="main-navigation">
                         <li class="active"><a href="{{url('/')}}"><i class="fa fa-home"></i> HOME</a></li>
-                        <li><a href="{{url('/about.html')}}"><i class="fa fa-user"></i> ABOUT US</a></li>
+                        <li><a href="{{url('/about')}}"><i class="fa fa-user"></i> ABOUT US</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-image"></i> SERVICES <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">

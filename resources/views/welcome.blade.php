@@ -96,44 +96,62 @@
             <!-- About Content Starts -->
             <div class="row about-content">
                 <div class="col-sm-12 col-md-6 col-lg-6 about-left-side">
-                    <h3 class="title-about">WE ARE <strong>AMIRA</strong></h3>
+                    <h3 class="title-about">WE ARE <strong>OTEMA</strong></h3>
                     <hr>
-                    <p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur officiis molestias eveniet harum laudantium obcaecati pariatur officiis molestias eveniet harum laudantium sed optio iste. </p>
+                    <p>Otema technologies is a product design company powered by creative problem-solvers. We exist to be a sandbox of challenging exploration where we unapologetically push boundaries and explore our world.
+                        At Otema you will never fail to get an IT solution to your problem. We boast of proven ability to develop high-performance software solutions. We believe in innovation, best practices, employee recognition and delivering high levels of customer satisfaction. As a show of commitment to innovation, we consistently provide our customers with new enhancements to confirm a solid dedication to help them achieve success.
+                    </p>
                     <!-- Tabs Heading Starts -->
                     <ul class="nav nav-tabs">
                         <li class="active"><a data-toggle="tab" href="#menu1">Our Mission</a></li>
-                        <li><a data-toggle="tab" href="#menu2">Our advantages</a></li>
-                        <li><a data-toggle="tab" href="#menu3">Our guarantees</a></li>
+                        <li><a data-toggle="tab" href="#menu2">Our Vision</a></li>
+                        <li><a data-toggle="tab" href="#menu3">Our Guiding Principles</a></li>
                     </ul>
                     <!-- Tabs Heading Ends -->
                     <!-- Tabs Content Starts -->
                     <div class="tab-content">
                         <div id="menu1" class="tab-pane fade in active">
-                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p>To be a leading software company in the world providing quality technological services and products that provide equal opportunity to all while improving the livelihood of the society.</p>
                         </div>
                         <div id="menu2" class="tab-pane fade">
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            <p>To achieve excellence in solution provision, development, and implementation of software solutions by incorporating research, consultancy, and modern technologies and tools.</p>
                         </div>
                         <div id="menu3" class="tab-pane fade">
-                            <p>Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                            <h4>Goal-Driven Design</h4>
+                            <p>Our digital economy runs on results. We believe in goal-driven design, pinpointing the intersection between business goals, user goals, and the products designed to bring them together.
+                            </p>
+                            <h4>Clients as Partners</h4>
+                            <p>The best products are created when everyone operates as a single unit with common goals. Our success is measured as a team, so we intentionally sit on the same side of the table as our clients.
+                            </p>
+                                                        <h4>Unapologetically Transparent</h4>
+                            Open communication is a critical element for successful projects. We will tell you what is on our minds. All of the time. We also trust you to do the same. We support the value of transparency by publishing our Employee Handbook and our nine Stage Project Process online for everyone to see. No secrets. Just ask.
+                            <h4>Fewer Presentations</h4>
+                            We do not believe in dog-and-pony shows or a strict number of revisions. Good products require hard work, iterative testing, and open collaboration with our clients.
+                            <h4>Technology Agnostic</h4>
+                            Hammers, screwdrivers and businesses run on a variety of solutions. For that reason, we do not subscribe to a specific set of technologies. Our engineering team delivers the right products that make sense for your unique ecosystem.
+                            <h4>Straight, No Chaser</h4>
+                            Many times, we tackle the hard and challenging projects that others will not dare to touch. We find joy in solving some of the biggest and worst problems for our clients.
+                            <h4>Quality over Quantity</h4>
+                            It is our job to make the best products possible. We take on less work so we can do our best work.
+
                         </div>
                     </div>
                     <!-- Tabs Content Ends -->
-                    <a class="custom-button" href="about.html">Learn more about us</a>
+                    <a class="custom-button" href="{{url('/about')}}">Learn more about us</a>
                 </div>
                 <div class="col-md-6 col-lg-6 about-right-side">
                     <div class="full-image-container hovered">
                         <img class="img-responsive hidden-xs" src="{{asset('images/frontend_images/about.jpg')}}" alt="">
                         <div class="full-image-overlay">
-                            <h3>Why <strong>Choose Us</strong></h3>
+                            <h3 style="color: #8a2be2;" class="text-center">Why <strong>Choose Us</strong></h3>
                             <ul class="list-why-choose-us">
-                                <li>Clean Code & Design</li>
-                                <li>Responsive Layout</li>
-                                <li>Powerful Documentation</li>
-                                <li>Browser Compatibility</li>
-                                <li>Easy Customization</li>
-                                <li>& Much More ...</li>
-                            </ul>
+                                <li>We believe in goal-driven design</li>
+                                <li>we are understanding.</li>
+                                <li>We are creative.</li>
+                                <li>We have a multi-disciplinary team.</li>
+                                <li>We are un apologetically Transparent</li>
+                                <li>We don't just build softwares, we build solutions</li>
+                                                           </ul>
                         </div>
                     </div>
                 </div>
@@ -211,7 +229,7 @@
                     <!-- Service Item Content Starts -->
                     <div class="services-box-item-content fa fa-desktop">
                         <h2>Desktop application development</h2>
-                        <p>We udnerstand that some solutions are best deployed locally on the local machine. we thus create amazing and modern looking custom or proprietary desktop applications that can run on any operating system using modern technology</p>
+                        <p>We understand that some solutions are best deployed locally. we thus create amazing and modern looking custom or proprietary desktop applications that can run on any operating system using modern technology</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
@@ -238,7 +256,7 @@
                     <!-- Service Item Cover Ends -->
                     <div class="services-box-item-content fa fa-shopping-basket">
                         <h2>E commerce Solutions</h2>
-                        <p>e-commerce development services for online merchant solutions on peer-to-peer platforms, social networking sites, and group buying marketplaces. We program your web store to third-party platforms, migrate data sets and legacy software to preserve data and create custom applications like shipping and drop-ship plugins through third-party APIs</p>
+                        <p>We offer e-commerce development services for online merchant solutions on peer-to-peer platforms, social networking sites, and group buying marketplaces. We program your application using custom applications.</p>
                     </div>
                 </div>
                 <!-- Service Item Ends -->
@@ -251,7 +269,7 @@
                     <!-- Service Item Content Starts -->
                     <div class="services-box-item-content fa fa-cloud-download">
                         <h2>Web Portal Development</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                        <p>We offer full cycle portal development services including design, implementation, QA, maintenance, support. Every business needs a strong web presence, whether you need to create an initial presence on the web.</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
@@ -260,12 +278,54 @@
                 <!-- Service Item Starts -->
                 <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
                     <!-- Service Item Cover Starts -->
-                    <span class="services-box-item-cover fa fa-file-pdf-o" data-headline="Well Documented"></span>
+                    <span class="services-box-item-cover fa fa-google" data-headline="Search Engine Optimization"></span>
                     <!-- Service Item Cover Ends -->
                     <!-- Service Item Content Starts -->
-                    <div class="services-box-item-content fa fa-file-pdf-o">
-                        <h2>Well Documented</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.</p>
+                    <div class="services-box-item-content fa fa-google">
+                        <h2>Search Engine Optimization</h2>
+                        <p>We employ a range of techniques and tools to make your website, web application or e-commerce solution rank high in search engines giving you more traffic and clients thus more revenue to your business</p>
+                    </div>
+                    <!-- Service Item Content Ends -->
+                </div>
+                <!-- Service Item Ends -->
+
+                <!-- Service Item Starts -->
+                <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
+                    <!-- Service Item Cover Starts -->
+                    <span class="services-box-item-cover fa fa-facebook-f" data-headline="Social Media Marketing"></span>
+                    <!-- Service Item Cover Ends -->
+                    <!-- Service Item Content Starts -->
+                    <div class="services-box-item-content fa fa-facebook">
+                        <h2>Social Media Marketing</h2>
+                        <p>We provide services that increase the awareness of a product, brand or event by using a number of social media outlets and communities to generate viral publicity.</p>
+                    </div>
+                    <!-- Service Item Content Ends -->
+                </div>
+                <!-- Service Item Ends -->
+
+                <!-- Service Item Starts -->
+                <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
+                    <!-- Service Item Cover Starts -->
+                    <span class="services-box-item-cover fa fa-cogs" data-headline="Support and Maintenance"></span>
+                    <!-- Service Item Cover Ends -->
+                    <!-- Service Item Content Starts -->
+                    <div class="services-box-item-content fa fa-cog">
+                        <h2>Support and Maintenance</h2>
+                        <p>We provide support and maintenance services for all applications developed by us and even those developed by others to ensure continuity and growth of your business.</p>
+                    </div>
+                    <!-- Service Item Content Ends -->
+                </div>
+                <!-- Service Item Ends -->
+
+                <!-- Service Item Starts -->
+                <div class="col-lg-4 col-md-6 col-sm-12 services-box-item">
+                    <!-- Service Item Cover Starts -->
+                    <span class="services-box-item-cover fa fa-pencil" data-headline="Consultancy and Training"></span>
+                    <!-- Service Item Cover Ends -->
+                    <!-- Service Item Content Starts -->
+                    <div class="services-box-item-content fa fa-book">
+                        <h2>Consultancy and Training</h2>
+                        <p>We believe that in order to create everlasting solutions, there is need for sharing knowledge, we thus through our Academy, provide skill based technology training at an affordable cost</p>
                     </div>
                     <!-- Service Item Content Ends -->
                 </div>
