@@ -169,16 +169,15 @@
                 <!-- Main Heading Starts -->
                 <div class="text-center top-text">
                     <h1><span>Video</span> Promo</h1>
-                    <h4>Made with love for you</h4>
+                    <h4>Still Don't believe us?</h4>
                 </div>
                 <!-- Main Heading Ends -->
                 <div class="video-content">
-                    <p class="text-center">See Amira like you've never seen it before! Watch our new promo video,<br> and discover just what an Amira membership can do for you!</p>
+                    <p class="text-center">Watch this promo video,<br> and discover just what an Otema Technologies can do for you!</p>
                     <!-- Video Play Starts -->
                     <div class="magnific-popup-gallery">
                         <div class="btn-wrapper text-center">
-
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/fYDQE6OHWJc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/6hQwoyIwmjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                     </div>
                     <!-- Video Play Ends -->

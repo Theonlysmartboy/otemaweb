@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5e26dd8e-20d0-4e3d-8ce2-48cb91485ee0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -99,32 +100,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="325" column="68" selection-start-line="325" selection-start-column="68" selection-end-line="325" selection-end-column="68" />
-              <folding>
-                <element signature="e#103#16036#0#HTML" />
-                <element signature="e#16113#20541#0#HTML" />
-                <element signature="e#20612#21866#0#HTML" />
-                <element signature="e#22710#23528#0#HTML" />
-                <element signature="e#23634#24489#0#HTML" />
-                <element signature="e#24595#25430#0#HTML" />
-                <element signature="e#25536#26387#0#HTML" />
-                <element signature="e#26493#27320#0#HTML" />
-                <element signature="e#27426#28233#0#HTML" />
-                <element signature="e#30077#30894#0#HTML" />
-              </folding>
+            <state relative-caret-position="569">
+              <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="7104" column="23" selection-start-line="7104" selection-start-column="9" selection-end-line="7104" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -163,8 +158,8 @@
         <option value="$PROJECT_DIR$/storage/framework/views/d06d0d9a115e4a03cb163793c324751709a5e6c6.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
       </list>
     </option>
   </component>
@@ -266,6 +261,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,11 +274,23 @@
               <item name="otemasite" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend_images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,7 +332,12 @@
       <workItem from="1558350547072" duration="6766000" />
       <workItem from="1559025753317" duration="346000" />
       <workItem from="1559026117043" duration="2797000" />
-      <workItem from="1559045176550" duration="4805000" />
+      <workItem from="1559045176550" duration="5777000" />
+      <workItem from="1559130832705" duration="1138000" />
+      <workItem from="1559204001730" duration="1382000" />
+      <workItem from="1559217550279" duration="609000" />
+      <workItem from="1559279937964" duration="613000" />
+      <workItem from="1559984446685" duration="234000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit on the second machine">
       <created>1558275240959</created>
@@ -403,16 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1559051929234</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added more folders">
+      <created>1559052164837</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1559052164837</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30443000" />
+    <option name="totallyTimeSpent" value="35157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18305598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19818456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -449,7 +469,8 @@
     <MESSAGE value="added welcome controller for all pages" />
     <MESSAGE value="Completed services section design" />
     <MESSAGE value="Added the first part of the readme.md file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the first part of the readme.md file" />
+    <MESSAGE value="Added more folders" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more folders" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.env">
@@ -543,25 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="325" column="68" selection-start-line="325" selection-start-column="68" selection-end-line="325" selection-end-column="68" />
-          <folding>
-            <element signature="e#103#16036#0#HTML" />
-            <element signature="e#16113#20541#0#HTML" />
-            <element signature="e#20612#21866#0#HTML" />
-            <element signature="e#22710#23528#0#HTML" />
-            <element signature="e#23634#24489#0#HTML" />
-            <element signature="e#24595#25430#0#HTML" />
-            <element signature="e#25536#26387#0#HTML" />
-            <element signature="e#26493#27320#0#HTML" />
-            <element signature="e#27426#28233#0#HTML" />
-            <element signature="e#30077#30894#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
@@ -569,13 +571,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/frontend_images/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
-          </first_editor>
+          <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="203" column="24" selection-start-line="203" selection-start-column="24" selection-end-line="203" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="7104" column="23" selection-start-line="7104" selection-start-column="9" selection-end-line="7104" selection-end-column="23" />
         </state>
       </provider>
     </entry>
