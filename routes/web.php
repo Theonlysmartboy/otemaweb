@@ -13,9 +13,10 @@
 
 Route::get('/','WelcomeController@welcome' );
 
-Route::get('/about.html','WelcomeController@about');
+Route::get('/about','WelcomeController@about');
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::match(['get','post'],'/contact_us','ContactsController@contact');

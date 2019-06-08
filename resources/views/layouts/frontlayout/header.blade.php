@@ -55,7 +55,7 @@
                     <!-- Main Menu Starts -->
                     <ul class="nav navbar-nav" id="main-navigation">
                         <li class="active"><a href="{{url('/')}}"><i class="fa fa-home"></i> HOME</a></li>
-                        <li><a href="{{url('/about.html')}}"><i class="fa fa-user"></i> ABOUT US</a></li>
+                        <li><a href="{{url('/about')}}"><i class="fa fa-user"></i> ABOUT US</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-image"></i> SERVICES <i class="fa fa-angle-down icon-angle"></i></a>
                             <ul class="dropdown-menu" role="menu">
@@ -94,7 +94,7 @@
                                 <li><a href="terms-of-services.html">Terms of Services</a></li>
                             </ul>
                         </li>
-                         <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                         <li><a href="{{url('/contact_us')}}"><i class="fa fa-envelope"></i> Contact</a></li>
                         @if (Route::has('login'))
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle-o"></i> MY ACCOUNT <i class="fa fa-angle-down icon-angle"></i></a>

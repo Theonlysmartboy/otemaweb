@@ -96,7 +96,7 @@
             <!-- About Content Starts -->
             <div class="row about-content">
                 <div class="col-sm-12 col-md-6 col-lg-6 about-left-side">
-                    <h3 class="title-about">WE ARE <strong>AMIRA</strong></h3>
+                    <h3 class="title-about">WE ARE <strong>OTEMA</strong></h3>
                     <hr>
                     <p>We are a leading company sit amet, consectetur adipisicing elit. Minus obcaecati pariatur officiis molestias eveniet harum laudantium obcaecati pariatur officiis molestias eveniet harum laudantium sed optio iste. </p>
                     <!-- Tabs Heading Starts -->
