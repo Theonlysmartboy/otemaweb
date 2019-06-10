@@ -94,7 +94,7 @@
                                 <li><a href="terms-of-services.html">Terms of Services</a></li>
                             </ul>
                         </li>
-                         <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+                         <li><a href="{{url('/contact_us')}}"><i class="fa fa-envelope"></i> Contact</a></li>
                         @if (Route::has('login'))
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user-circle-o"></i> MY ACCOUNT <i class="fa fa-angle-down icon-angle"></i></a>

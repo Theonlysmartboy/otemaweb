@@ -5,7 +5,7 @@
         <div class="row">
             <!-- Footer Widget Starts -->
             <div class="col-xs-6 col-sm-4 col-md-2">
-                <h4>Amira</h4>
+                <h4>Otema</h4>
                 <div class="menu">
                     <ul>
                         <li><a href="index.html">Home</a></li>
