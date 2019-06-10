@@ -35,6 +35,7 @@
 <script src="{{asset('js/frontend_js/plugins/jquery.bxslider.min.js')}}"></script>
 <script src="{{asset('js/frontend_js/plugins/jquery.filterizr.js')}}"></script>
 <script src="{{asset('js/frontend_js/plugins/jquery.magnific-popup.min.js')}}"></script>
+
 <!-- Revolution Slider Main JS Files -->
 <script src="{{asset('js/frontend_js/plugins/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
 <script src="{{asset('js/frontend_js/plugins/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>

@@ -6,7 +6,9 @@
         <div class="info-map">
             <div class="google-map">
                 <div class="gmap_container">
-                    <div id="gmap_canvas"></div>
+                    <div id="gmap_canvas">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15959.23969620675!2d34.7526569!3d-0.1175452!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x95fc04f45009eb81!2sOtema+Inc!5e0!3m2!1sen!2ske!4v1560144242903!5m2!1sen!2ske" id="gmap_canvas"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -17,9 +19,10 @@
                 <div class="col-md-6 col-sm-6">
                     <div class="info-map-boxes-item fa fa-phone">
                         <h1>Phone &amp; Online</h1>
-                        <p>Phone : +39 1873 2878
-                            <br>Fax : +49 (0) 123 456789-15
-                            <br><a href="#">amira@yourdomain.com</a></p>
+                        <p>Phone : +254 702 293 572
+                            <br>Varsity Plaza – 2<sup>nd</sup> Floor
+                            Oginga Odinga Street, Kisumu</sup>
+                            <br><a href="mailto:info@otemainc.com">info@otemainc.com</a></p>
                     </div>
                 </div>
                 <!-- Left Info Map Box Ends -->
@@ -38,30 +41,7 @@
         <!-- Info Map Boxes Ends -->
     </section>
     <!-- Contact Section Ends -->
-    <div class="info-map-boxes-item fa fa-phone">
-        <h1>Phone &amp; Online</h1>
-        <p>Phone : +39 1873 2878
-            <br>Fax : +49 (0) 123 456789-15
-            <br><a href="#">amira@yourdomain.com</a></p>
-    </div>
-    </div>
-    <!-- Left Info Map Box Ends -->
-    <!-- Right Info Map Box Starts -->
-    <div class="col-md-6 col-sm-6">
-        <div class="info-map-boxes-item fa fa-clock-o">
-            <h1>Working Hours</h1>
-            <p>Monday-Thursday : 08:00–17:00
-                <br>Friday & Saturday : 08:00–12:30
-                <br>Sunday - Closed</p>
-        </div>
-    </div>
-    <!-- Right Info Map Box Ends -->
-    </div>
-    </div>
-    <!-- Info Map Boxes Ends -->
-    </section>
-    <!-- Contact Section Ends -->
-    <!-- Contact Form Section Starts -->
+           <!-- Contact Form Section Starts -->
     <section class="contactform">
         <div class="section-overlay">
             <div class="container">
