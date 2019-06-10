@@ -1,5 +1,4 @@
 @extends('layouts.frontlayout.design')
-
 @section('content')
 <section id="about" class="about">
     <!-- Container Starts -->
@@ -65,4 +64,5 @@
         <!-- About Content Ends -->
     </div>
     <!-- Container Ends -->
-</section>
+</section>  
+@endsection
