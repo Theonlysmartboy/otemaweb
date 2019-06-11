@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5e26dd8e-20d0-4e3d-8ce2-48cb91485ee0" name="Default Changelist" comment="Begun adding dashboards. Added admin lte template">
       <change afterPath="$PROJECT_DIR$/public/bower_components/Flot/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/Flot/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/Flot/.travis.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/Flot/API.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/Flot/CONTRIBUTING.md" afterDir="false" />
@@ -1602,412 +1601,12 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/PACE/themes/yellow/pace-theme-loading-bar.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/PACE/themes/yellow/pace-theme-mac-osx.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/PACE/themes/yellow/pace-theme-minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/.csscomb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/badges.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/button-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/code.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/component-animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/glyphicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/input-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/jumbotron.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/media.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/background-variant.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/border-radius.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/center-block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/gradients.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/grid-framework.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/hide-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/nav-divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/nav-vertical-align.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/opacity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/progress-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/reset-filter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/reset-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/resize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/responsive-visibility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/tab-focus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/table-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/text-emphasis.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/text-overflow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/navbar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/pager.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/popovers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/responsive-embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/responsive-utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/scaffolding.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/thumbnails.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/type.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/bootstrap-less/wells.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/grunt/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/BoxRefresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/BoxWidget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/ControlSidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/DirectChat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/PushMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/TodoList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/js/Tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/.csslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/404_500_errors.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/AdminLTE-without-plugins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/AdminLTE.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/bootstrap-social.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/boxes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/callout.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/control-sidebar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/datepicker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/direct-chat.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/dropdown.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/fullcalendar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/header.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/info-box.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/invoice.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/lockscreen.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/login_and_register.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/mailbox.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/miscellaneous.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/modal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/plugins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/products.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/profile.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/select2.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/sidebar-mini.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/sidebar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/_all-skins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-black-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-black.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-blue-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-blue.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-green-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-green.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-purple-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-purple.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-red-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-red.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-yellow-light.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/skins/skin-yellow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/small-box.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/social-widgets.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/table.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/timeline.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/treeview.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/users-list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/build/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/adminlte.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/adminlte.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/js/adminlte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/js/adminlte.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/js/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/js/pages/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/dist/js/pages/dashboard2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/modals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/sliders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/UI/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/calendar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/charts/chartjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/charts/flot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/charts/inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/charts/morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/invoice-print.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/lockscreen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/pace.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/examples/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/forms/advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/forms/editors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/forms/general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/layout/boxed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/layout/collapsed-sidebar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/layout/fixed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/layout/top-nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/mailbox/compose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/mailbox/mailbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/mailbox/read-mail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/tables/data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/tables/simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/pages/widgets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/flat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/futurico/futurico.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/futurico/futurico.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/icheck.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/line.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/line@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/line/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/polaris/polaris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/polaris/polaris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/_all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/aero.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/aero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/aero@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/blue@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/green@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/grey@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/orange.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/orange.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/orange@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/pink.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/pink.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/pink@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/purple@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/red@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/square@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.date.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/phone-codes/phone-be.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/phone-codes/phone-codes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/input-mask/phone-codes/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jQueryUI/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/pace/pace.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/pace/pace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/pace/pace.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/pace/pace.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/timepicker/bootstrap-timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/timepicker/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/timepicker/bootstrap-timepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/plugins/timepicker/bootstrap-timepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/starter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/admin-lte/yarn.lock" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.bower.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.github/CODE_OF_CONDUCT.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.github/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.github/ISSUE_TEMPLATE.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.jshintrc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.npmignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-colorpicker/.travis.yml" afterDir="false" />
@@ -2061,7 +1660,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/.github/ISSUE_TEMPLATE.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/.travis.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/CHANGELOG.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/CODE_OF_CONDUCT.md" afterDir="false" />
@@ -2094,7 +1692,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bm.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
@@ -2185,7 +1782,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_enddate.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_language.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_multidate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_showweekdays.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_startdate.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_todaybtn.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_screenshots/option_todayhighlight.html" afterDir="false" />
@@ -2206,7 +1802,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_enddate.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_language.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_multidate.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_showweekdays.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_startdate.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_todaybtn.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/docs/_static/screenshots/option_todayhighlight.png" afterDir="false" />
@@ -2230,7 +1825,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bm.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.br.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" afterDir="false" />
@@ -2507,7 +2101,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/bootstrap/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/chart.js/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/chart.js/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/chart.js/.travis.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/chart.js/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/chart.js/Chart.js" afterDir="false" />
@@ -2732,8 +2325,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/ru.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/autoembed/lang/ug.js" afterDir="false" />
@@ -2883,8 +2474,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/th.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/codesnippet/lang/tr.js" afterDir="false" />
@@ -3165,8 +2754,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/devtools/lang/tt.js" afterDir="false" />
@@ -3385,8 +2972,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/ru.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/embedbase/lang/ug.js" afterDir="false" />
@@ -3947,8 +3532,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/language/lang/tt.js" afterDir="false" />
@@ -4088,8 +3671,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/mathjax/lang/tt.js" afterDir="false" />
@@ -4303,8 +3884,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/th.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/placeholder/lang/tr.js" afterDir="false" />
@@ -4946,8 +4525,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/th.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/specialchar/dialogs/lang/tr.js" afterDir="false" />
@@ -5099,8 +4676,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sr-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ckeditor/plugins/uicolor/lang/tt.js" afterDir="false" />
@@ -5308,7 +4883,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/fastclick/bower.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/fastclick/lib/fastclick.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/font-awesome/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/font-awesome/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/font-awesome/.npmignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/font-awesome/HELP-US-OUT.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/font-awesome/bower.json" afterDir="false" />
@@ -5469,7 +5043,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/inputmask/dist/min/jquery.inputmask.bundle.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/.bower.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/.npmignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/License.md" afterDir="false" />
@@ -5493,7 +5066,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/ion.rangeSlider/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-knob/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-knob/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-knob/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-knob/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-knob/bower.json" afterDir="false" />
@@ -5557,7 +5129,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-sparkline/src/vcanvas-vml.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-sparkline/version.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-ui/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-ui/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-ui/AUTHORS.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-ui/LICENSE.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery-ui/README.md" afterDir="false" />
@@ -6306,7 +5877,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/access.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/camelCase.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/isAttached.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/nodeName.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/parseHTML.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/core/ready-no-deferred.js" afterDir="false" />
@@ -6320,7 +5890,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/addGetHookIf.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/adjustCSS.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/finalPropName.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/showHide.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/css/support.js" afterDir="false" />
@@ -6357,6 +5926,7 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/getAll.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/manipulation/wrapMap.js" afterDir="false" />
@@ -6386,7 +5956,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/isWindow.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/pnum.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rcheckableType.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rcssNum.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/slice.js" afterDir="false" />
@@ -6394,7 +5963,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/var/toString.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jquery/src/wrap.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jvectormap/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/jvectormap/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jvectormap/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jvectormap/build.sh" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/jvectormap/converter/converter.py" afterDir="false" />
@@ -6452,6 +6020,133 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/bm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/bn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/de-at.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/dv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-SG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-il.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/es-do.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/fy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/gd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/gom-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/hy-am.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/it-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/kn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/lo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/mi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/mt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/nl-be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/pa-in.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/se.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/te.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tl-ph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tlh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tzm-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ug-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/uz-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/x-pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/yo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/zh-hk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/locale/zh-tw.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/min/locales.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/min/locales.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/min/moment-with-locales.js" afterDir="false" />
@@ -6564,44 +6259,138 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/lib/utils/some.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/lib/utils/to-int.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/lib/utils/zero-fill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-dz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-kw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-ly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-ma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-sa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar-tn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/be.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/bm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/bn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/bo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ca.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/cs.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/cv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/de-at.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/dv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-SG.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-il.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/en-nz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/es-do.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/es-us.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/es.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fr-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/fy.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ga.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/gd.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/gom-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/gu.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/hr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/hu.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/hy-am.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/it-ch.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ja.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/jv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/kk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/kn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/lb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/lo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/lt.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/me.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/mi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/mn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/mr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ms-my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/mt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ne.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/nl-be.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/nn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/pa-in.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/pt-br.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/se.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/si.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sr-cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/sw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ta.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/te.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tet.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/th.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tl-ph.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tlh.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tzl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tzm-latn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/tzm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ug-cn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/ur.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/uz-latn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/vi.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/x-pseudo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/yo.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/zh-hk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/locale/zh-tw.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/moment/src/moment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/templates/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/templates/locale-header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/moment/templates/test-header.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/.travis.yml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/Gruntfile.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/README.md" afterDir="false" />
@@ -6670,19 +6459,44 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/spec/viz/exemplary/line0.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/spec/viz/exemplary/stacked_bar0.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/spec/viz/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/spec/viz/test.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/morris.js/spec/viz/visual_specs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/raphael.amd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/raphael.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/raphael.svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/raphael.vml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/test/svg/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/dev/test/vml/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/raphael.no-deps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/raphael.no-deps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/raphael/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.github/CONTRIBUTING.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.github/ISSUE_TEMPLATE.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.jshintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/composer.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/css/select2.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/css/select2.min.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/af.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ar.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/az.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/bn.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/bs.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ca.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/cs.js" afterDir="false" />
@@ -6708,7 +6522,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/is.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/it.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ka.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/km.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ko.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/lt.js" afterDir="false" />
@@ -6716,7 +6529,6 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/mk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ms.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ne.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/nl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/pl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ps.js" afterDir="false" />
@@ -6726,12 +6538,10 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/ru.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sq.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sr-Cyrl.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/sv.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/tk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/tr.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/uk.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/dist/js/i18n/vi.js" afterDir="false" />
@@ -6748,6 +6558,112 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/docs/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/docs/options-old.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/docs/options.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/select2.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/banner.end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/banner.start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/jquery.mousewheel.shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/jquery.select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/jquery.shim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/containerCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/dropdownCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/initSelection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/inputData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/matcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/query.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/compat/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/maximumInputLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/maximumSelectionLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/minimumInputLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/tags.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/data/tokenizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/defaults.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/diacritics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/attachBody.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/attachContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/closeOnSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/hidePlaceholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/infiniteScroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/minimumResultsForSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/selectOnClose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/dropdown/stopPropagation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/bs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/dsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/hi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/hsb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/hy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/sr-Cyrl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/i18n/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/keys.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/options.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/results.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/allowClear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/clickMask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/eventRelay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/multiple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/single.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/selection/stopPropagation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/translation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/select2/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/wrapper.end.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/js/wrapper.start.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/scss/_dropdown.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/scss/_multiple.scss" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/src/scss/_single.scss" afterDir="false" />
@@ -6776,8 +6692,7 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/dropdown/selectOnClose-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/dropdown/stopPropagation-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration-jq1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration-jq2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration/dom-changes.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration/jquery-calls.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/integration/select2-methods.js" afterDir="false" />
@@ -6794,17 +6709,369 @@
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/selection/search-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/selection/single-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/selection/stopPropagation-tests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/unit-jq1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/unit-jq2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/unit.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/utils/decorator-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/utils/escapeMarkup-tests.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/vendor/jquery-1.7.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/vendor/jquery-2.2.4.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/vendor/qunit-1.23.1.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/bower_components/select2/tests/vendor/qunit-1.23.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bower_components/select2/vendor/jquery-2.1.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/.csscomb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/badges.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/bootstrap.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/breadcrumbs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/button-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/close.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/code.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/component-animations.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/dropdowns.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/glyphicons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/input-groups.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/jumbotron.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/media.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/background-variant.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/border-radius.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/center-block.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/clearfix.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/gradients.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/grid-framework.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/grid.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/hide-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/image.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/list-group.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/nav-divider.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/nav-vertical-align.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/opacity.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/progress-bar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/reset-filter.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/reset-text.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/resize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/responsive-visibility.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/size.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/tab-focus.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/table-row.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/text-emphasis.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/text-overflow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/mixins/vendor-prefixes.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/modals.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/navbar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/navs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/normalize.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/pager.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/pagination.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/panels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/popovers.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/progress-bars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/responsive-embed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/responsive-utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/scaffolding.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/tables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/thumbnails.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/tooltip.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/type.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/utilities.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/bootstrap-less/wells.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/grunt/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/.jscsrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/.jshintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/BoxRefresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/BoxWidget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/ControlSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/DirectChat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/PushMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/TodoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/js/Tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/.csslintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/404_500_errors.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/AdminLTE-without-plugins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/AdminLTE.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/alerts.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/bootstrap-social.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/boxes.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/buttons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/callout.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/carousel.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/control-sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/datepicker.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/direct-chat.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/dropdown.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/forms.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/fullcalendar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/header.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/info-box.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/invoice.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/labels.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/lockscreen.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/login_and_register.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/mailbox.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/miscellaneous.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/modal.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/navs.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/plugins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/print.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/products.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/profile.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/progress-bars.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/select2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/sidebar-mini.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/sidebar.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/_all-skins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-black-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-black.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-blue-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-blue.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-green-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-green.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-purple-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-purple.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-red-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-red.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-yellow-light.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/skins/skin-yellow.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/small-box.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/social-widgets.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/table.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/timeline.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/treeview.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/users-list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/build/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/AdminLTE.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/AdminLTE.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/adminlte.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/adminlte.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-bootstrap-social.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-without-plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-without-plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/_all-skins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/_all-skins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-black-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-black-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-black.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-blue-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-blue-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-green-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-green-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-purple-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-purple-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-purple.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-red-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-red-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-yellow-light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-yellow-light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/dashboard_css/skins/skin-yellow.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/avatar04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/avatar2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/avatar3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/avatar5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/american-express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/cirrus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/mastercard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/mestro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/paypal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/paypal2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/credit/visa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/default-50x50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/photo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/photo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/photo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/photo4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user1-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user2-160x160.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user3-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user4-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user5-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user6-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user7-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/dashboard_images/user8-128x128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard_js/adminlte.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard_js/adminlte.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard_js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard_js/pages/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/dashboard_js/pages/dashboard2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-slider/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/flat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/flat@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/flat/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/futurico/futurico.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/futurico/futurico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/futurico/futurico@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/icheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/line.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/line@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/line/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/minimal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/minimal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/minimal@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/minimal/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/polaris/polaris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/polaris/polaris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/polaris/polaris@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/_all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/aero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/aero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/aero@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/blue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/blue@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/grey@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/orange@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/pink.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/pink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/pink@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/purple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/purple@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/red@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/square.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/square@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/yellow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/iCheck/square/yellow@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.date.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.numeric.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.phone.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/jquery.inputmask.regex.extensions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/phone-codes/phone-be.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/phone-codes/phone-codes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/input-mask/phone-codes/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jQueryUI/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jvectormap/jquery-jvectormap-1.2.2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jvectormap/jquery-jvectormap-usa-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/jvectormap/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/pace/pace.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/pace/pace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/pace/pace.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/pace/pace.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/plugins/timepicker/bootstrap-timepicker.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server/" />
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
@@ -6897,18 +7164,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_footer.blade.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -6960,7 +7216,6 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/frontlayout/design.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/contact.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/clientlayout/client_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/clientlayout/client_header.blade.php" />
@@ -6968,6 +7223,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/clientlayout/client_design.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php" />
       </list>
     </option>
   </component>
@@ -7085,7 +7341,28 @@
               <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
               <item name="otemasite" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="pace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="pace" type="462c0819:PsiDirectoryNode" />
+              <item name="pace.js" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
@@ -7121,6 +7398,14 @@
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
               <item name="clientlayout" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="otemasite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="otemasite" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="frontlayout" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -7132,7 +7417,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts/adminlayout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -7141,8 +7426,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\otemasite\public" />
+      <recent name="C:\xampp\htdocs\otemasite\public\js\dashboard_js" />
+      <recent name="C:\xampp\htdocs\otemasite\public\images\dashboard_images" />
+      <recent name="C:\xampp\htdocs\otemasite\public\css\dashboard_css" />
       <recent name="C:\xampp\htdocs\otemasite\resources\views\layouts\adminlayout" />
-      <recent name="C:\xampp\htdocs\otemasite\resources\views\layouts\clientlayout" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -7185,7 +7473,7 @@
       <workItem from="1559217550279" duration="609000" />
       <workItem from="1559279937964" duration="613000" />
       <workItem from="1559984446685" duration="4852000" />
-      <workItem from="1560156831214" duration="3439000" />
+      <workItem from="1560156831214" duration="5528000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit on the second machine">
       <created>1558275240959</created>
@@ -7292,11 +7580,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560157081010</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Begun adding dashboards. Added admin lte template">
+      <created>1560164043231</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560164043231</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48957000" />
+    <option name="totallyTimeSpent" value="51046000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -7367,9 +7662,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -7533,13 +7827,6 @@
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/design.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/frontend_css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -7587,13 +7874,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/design.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/clientlayout/design.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/clientlayout/client_sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_header.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/clientlayout/client_header.blade.php">
@@ -7605,10 +7886,51 @@
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/clientlayout/client_design.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/admin-lte/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="506" column="10" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="506" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-select2.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/dashboard_js/pages/dashboard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_footer.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminlayout/admin_design.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/frontlayout/design.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/plugins/pace/pace.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
