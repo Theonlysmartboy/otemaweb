@@ -7164,7 +7164,7 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -7325,6 +7325,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -7410,7 +7411,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -7474,6 +7474,7 @@
       <workItem from="1559279937964" duration="613000" />
       <workItem from="1559984446685" duration="4852000" />
       <workItem from="1560156831214" duration="5528000" />
+      <workItem from="1560261793920" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit on the second machine">
       <created>1558275240959</created>
@@ -7591,7 +7592,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51046000" />
+    <option name="totallyTimeSpent" value="51062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -7663,11 +7664,10 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.204236" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20726173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32822084" />
@@ -7681,6 +7681,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.32872504" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49848714" weight="0.32565284" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="TypeScript" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -7886,17 +7887,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/clientlayout/client_design.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/bower_components/admin-lte/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="506" column="10" lean-forward="true" selection-start-line="308" selection-start-column="2" selection-end-line="506" selection-end-column="10" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/public/bower_components/admin-lte/index.html" />
     <entry file="file://$PROJECT_DIR$/public/css/dashboard_css/alt/AdminLTE-select2.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
