@@ -7,10 +7,12 @@ use Illuminate\Http\Request;
 class WelcomeController extends Controller
 {
     public function welcome(){
-        return view ('welcome');
+      $title = "Otema Technologies | The Home Of Digital Solutions and Innovations";
+        return view ('welcome')->with(compact('title'));
 
 }
 public function about(){
-        return view ('about');
+  $title = "Otema Technologies | About";
+        return view ('about')->with(compact('title'));
 }
 }

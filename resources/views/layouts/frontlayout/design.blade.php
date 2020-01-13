@@ -3,7 +3,7 @@
 <!-- index-kenburns11:31  -->
 <head>
     <meta charset="utf-8" />
-    <title>Otema - The Home of Digital Solutions</title>
+    <title><?php echo $title ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{asset('images/frontend_images/favicon.png')}}">
