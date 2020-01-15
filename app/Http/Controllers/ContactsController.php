@@ -10,6 +10,8 @@ class ContactsController extends Controller
        if($request->isMethod('post')){
 
        }
-       return view('contact');
+       $title = "Otema Technologies | Contact Us";
+
+       return view('contact')->with(compact('title'));
    }
 }

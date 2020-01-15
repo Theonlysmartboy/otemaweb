@@ -12,7 +12,7 @@ class WelcomeController extends Controller
 
 }
 public function about(){
-  $title = "Otema Technologies | About";
+  $title = "Otema Technologies | About Us";
         return view ('about')->with(compact('title'));
 }
 }
