@@ -141,7 +141,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 about-right-side">
                     <div class="full-image-container hovered">
-                        <img class="img-responsive hidden-xs" src="{{asset('images/frontend_images/about.jpg')}}" alt="">
+                        <img class="img-responsive hidden-xs" src="{{asset('images/frontend_images/about.png')}}" alt="">
                         <div class="full-image-overlay">
                             <h3 style="color: #8a2be2;" class="text-center">Why <strong>Choose Us</strong></h3>
                             <ul class="list-why-choose-us">
