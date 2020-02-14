@@ -173,7 +173,7 @@
                 </div>
                 <!-- Main Heading Ends -->
                 <div class="video-content">
-                    <p class="text-center">Watch this promo video,<br> and discover just what an Otema Technologies can do for you!</p>
+                    <p class="text-center">Watch this promo video,<br> and discover just what  we can do for you!</p>
                     <!-- Video Play Starts -->
                     <div class="magnific-popup-gallery">
                         <div class="btn-wrapper text-center">
@@ -418,9 +418,9 @@
                 <ul class="simplefilter nav nav-pills">
                     <!-- Filter Wrapper Items Starts -->
                     <li class="active" data-filter="all"><i class="fa fa-reorder"></i> All Projects</li>
-                    <li data-filter="1">Images</li>
-                    <li data-filter="2">Videos</li>
-                    <li data-filter="3">External Links</li>
+                    <li data-filter="1">Website</li>
+                    <li data-filter="2">Mobile</li>
+                    <li data-filter="3">Desktop</li>
                     <!-- Filter Wrapper Items Ends -->
                 </ul>
             </nav>
@@ -645,38 +645,38 @@
                     <div class="row">
                         <!-- Fact Badge Item Starts -->
                         <div class="col-md-3 col-sm-6">
-                            <i class="fa fa-briefcase"></i>
+                            <i class="fa fa-certificate"></i>
                             <h2>
-                                <span><strong class="badges-counter">76</strong>+</span>
+                                <span><strong class="badges-counter">NO. </strong>1</span>
                             </h2>
-                            <h4>Projects</h4>
+                            <h4>Tech solutions provider</h4>
                         </div>
                         <!-- Fact Badge Item Ends -->
                         <!-- Fact Badge Item Starts -->
                         <div class="col-md-3 col-sm-6">
-                            <i class="fa fa-clock-o"></i>
+                            <i class="fa fa-bar-chart"></i>
                             <h2>
-                                <span><strong class="badges-counter">90</strong>+</span>
+                                <span><strong class="badges-counter">100</strong>+</span>
                             </h2>
-                            <h4>Hours Work</h4>
+                            <h4>Solutions Developped</h4>
                         </div>
                         <!-- Fact Badge Item Ends -->
                         <!-- Fact Badge Item Starts -->
                         <div class="col-md-3 col-sm-6">
-                            <i class="fa fa-home"></i>
+                            <i class="fa fa-shield"></i>
                             <h2>
-                                <span><strong class="badges-counter">18</strong>+</span>
+                                <span><strong class="badges-counter"></strong>AAA</span>
                             </h2>
-                            <h4>Offices</h4>
+                            <h4>Rating By clients</h4>
                         </div>
                         <!-- Fact Badge Item Ends -->
                         <!-- Fact Badge Item Starts -->
                         <div class="col-md-3 col-sm-6">
-                            <i class="fa fa-user"></i>
+                            <i class="fa fa-globe"></i>
                             <h2>
-                                <span><strong class="badges-counter">67</strong>+</span>
+                                <span><strong class="badges-counter">100</strong>+</span>
                             </h2>
-                            <h4>Clients</h4>
+                            <h4>Clients all over the World</h4>
                         </div>
                         <!-- Fact Badge Item Ends -->
                     </div>
@@ -710,9 +710,9 @@
                     <div class="pricing-switcher">
                         <p>
                             <input type="radio" name="switch" value="monthly" id="monthly-1" checked>
-                            <label for="monthly-1">MONTHLY</label>
+                            <label for="monthly-1">Website</label>
                             <input type="radio" name="switch" value="yearly" id="yearly-1">
-                            <label for="yearly-1">YEARLY</label>
+                            <label for="yearly-1">Applications</label>
                             <span class="switch"></span>
                         </p>
                     </div>
@@ -724,22 +724,28 @@
                                 <!-- Monthly Pricing Table #1 Starts -->
                                 <li data-type="monthly" class="is-visible">
                                     <header class="pricing-header">
-                                        <h2>bronze</h2>
+                                        <h2>STARTER</h2>
                                         <div class="price-content">
-                                            <span class="currency">$</span>
+                                            <span class="currency">KSh</span>
                                             <span class="value">100</span>
-                                            <span class="duration">mo</span>
+                                            <span class="duration">One time fee</span>
                                         </div>
                                     </header>
                                     <div class="pricing-body">
                                         <ul class="pricing-features">
-                                            <li><em>1 GB</em> disk space</li>
-                                            <li><em>2</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
+                                          <li><em>2-10 pages</em></li>
+                                          <li>Interactive</li>
+                                           <li>Classy Design
+                                            <li>Database Driven
+                                            <li>Free Domain
+                                            <li>SEO
+                                            <li><em>1 </em>demo design</li>
+                                              <li><em>1-2</em> weeks delivery</li>
+                                                <li><em>1</em> month support</li>
                                         </ul>
                                     </div>
                                     <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">add to cart</a>
+                                        <a class="custom-button" href="#">Request Quote</a>
                                     </footer>
                                 </li>
                                 <!-- Monthly Pricing Table #1 Ends -->
