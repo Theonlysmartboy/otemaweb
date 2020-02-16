@@ -727,25 +727,27 @@
                                         <h2>STARTER</h2>
                                         <div class="price-content">
                                             <span class="currency">KSh</span>
-                                            <span class="value">100</span>
+                                            <span class="value">20,000</span>
                                             <span class="duration">One time fee</span>
                                         </div>
                                     </header>
                                     <div class="pricing-body">
                                         <ul class="pricing-features">
-                                          <li><em>2-10 pages</em></li>
-                                          <li>Interactive</li>
-                                           <li>Classy Design
-                                            <li>Database Driven
-                                            <li>Free Domain
-                                            <li>SEO
+                                          <li><em>Up to 5 </em> Database Driven Inner pages</li>
+                                          <li>Fully Customized interractive design layout </li>
+                                           <li>Homepage Banner Animation Slide Show </li>
+                                            <li>Contact Form - Details sent to email </li>
+                                            <li>100% satisfaction guarantee Optimized graphics </li>
+                                            <li>Search engine friendly design / S.E.O ready</li>
+                                            <li>Link to Social networking Websites like <br>facebook, twitter, linkedIn, etc.</li>
                                             <li><em>1 </em>demo design</li>
                                               <li><em>1-2</em> weeks delivery</li>
                                                 <li><em>1</em> month support</li>
+                                                <li> Suitable for personal websites</li>
                                         </ul>
                                     </div>
                                     <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">Request Quote</a>
+                                        <a class="custom-button" href="#">Get service</a>
                                     </footer>
                                 </li>
                                 <!-- Monthly Pricing Table #1 Ends -->
@@ -754,16 +756,22 @@
                                     <header class="pricing-header">
                                         <h2>bronze</h2>
                                         <div class="price-content">
-                                            <span class="currency">$</span>
-                                            <span class="value">360</span>
-                                            <span class="duration">yr</span>
+                                            <span class="currency">KSh</span>
+                                            <span class="value">40,000</span>
+                                            <span class="duration">One time fee</span>
                                         </div>
                                     </header>
                                     <div class="pricing-body">
                                         <ul class="pricing-features">
-                                            <li><em>10 GB</em> disk space</li>
+                                            <li><em>Up to 15</em> Database Driven Inner pages</li>
+                                            <li>Sitemap /Visitor counter</li>
+                                            <li>Newsletter to customers </li>
+                                            <li>Google maps of your business location</li>
+                                            <li>News Module Add / Modify / Delete Products/News from back end.</li>
+                                            <li>Events Module - Add / Modify / Delete events from back end</li>
+                                            <li>Photo Gallery Module ( Add / Modify / Delete Photos from backed )</li>
                                             <li><em>100</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
+                                            <li>Suitable for SMES</li>
                                         </ul>
                                     </div>
                                     <footer class="pricing-footer">
@@ -777,103 +785,72 @@
                             <ul class="pricing-wrapper">
                                 <!-- Monthly Pricing Table #2 Starts -->
                                 <li data-type="monthly" class="is-visible">
+                                  <div class="badge-popular">
+                                      <span class="popular">POPULAR</span>
+                                  </div>
                                     <header class="pricing-header">
-                                        <h2>silver</h2>
+                                        <h2>CORPORATE LITE</h2>
                                         <div class="price-content">
-                                            <span class="currency">$</span>
-                                            <span class="value">300</span>
-                                            <span class="duration">mo</span>
+                                            <span class="currency">KSh</span>
+                                            <span class="value">40,000</span>
+                                            <span class="duration">One time fee</span>
                                         </div>
                                     </header>
                                     <div class="pricing-body">
                                         <ul class="pricing-features">
-                                            <li><em>3 GB</em> disk space</li>
-                                            <li><em>5</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
+                                            <li><em>Up to 15</em> Database Driven Inner pages</li>
+                                            <li>Sitemap /Visitor counter</li>
+                                            <li>Newsletter to customers </li>
+                                            <li>Google maps of your business location</li>
+                                            <li>News Module Add / Modify / Delete Products <br>/ News from back end.</li>
+                                            <li>Events Module - Add / Modify / Delete events<br> from back end</li>
+                                            <li>Photo Gallery Module - Add / Modify / Delete<br> Photos from backed</li>
+                                            <li><em>2</em> demo designs</li>
+                                            <li><em>2-3</em> weeks delivery</li>
+                                            <li><em>2</em> months support</li>
+                                            <li>Suitable for SMES</li>
                                         </ul>
                                     </div>
                                     <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">add to cart</a>
+                                        <a class="custom-button" href="#">Get Service</a>
                                     </footer>
                                 </li>
                                 <!-- Monthly Pricing Table #2 Ends -->
-                                <!-- Yearly Pricing Table #2 Starts -->
-                                <li data-type="yearly" class="is-hidden">
-                                    <header class="pricing-header">
-                                        <h2>silver</h2>
-                                        <div class="price-content">
-                                            <span class="currency">$</span>
-                                            <span class="value">599</span>
-                                            <span class="duration">yr</span>
-                                        </div>
-                                    </header>
-                                    <div class="pricing-body">
-                                        <ul class="pricing-features">
-                                            <li><em>100 GB</em> disk space</li>
-                                            <li><em>unlimited</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
-                                        </ul>
-                                    </div>
-                                    <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">add to cart</a>
-                                    </footer>
-                                </li>
-                                <!-- Yearly Pricing Table #2 Ends -->
-                            </ul>
+                                </ul>
                         </li>
                         <li class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                             <ul class="pricing-wrapper">
                                 <!-- Monthly Pricing Table #3 Starts -->
                                 <li data-type="monthly" class="is-visible">
-                                    <div class="badge-popular">
-                                        <span class="popular">POPULAR</span>
-                                    </div>
                                     <header class="pricing-header">
-                                        <h2>gold</h2>
+                                        <h2>CORPORATE PRO</h2>
                                         <div class="price-content">
-                                            <span class="currency">$</span>
-                                            <span class="value">500</span>
-                                            <span class="duration">mo</span>
+                                            <span class="currency">KSh</span>
+                                            <span class="value">80,000</span>
+                                            <span class="duration">One time fee</span>
                                         </div>
                                     </header>
                                     <div class="pricing-body">
                                         <ul class="pricing-features">
-                                            <li><em>5 GB</em> disk space</li>
-                                            <li><em>10</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
+                                          <li><em>Up to 50</em> Database Driven Inner pages</li>
+                                          <li>Inner pages Banner Animation Slide Show</li>
+                                          <li>Responsive Website Design to cater for mobile<br> phones & tablets</li>
+                                          <li>User Registration $ Login forms with standard<br> fields ( name, email, password )</li>
+                                          <li>Payment / Donation module</li>
+                                          <li>Forget password, which sends the password <br>reset link to the email on the database.</li>
+                                          <li>Profile Page which will show basic information<br> about the registered user.</li>
+                                          <li><em>3</em> demo designs</li>
+                                          <li><em>3-4</em> weeks delivery</li>
+                                          <li><em>3</em> months support</li>
+                                          <li>Suitable for NGO'S and large Organizations</li>
                                         </ul>
                                     </div>
                                     <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">add to cart</a>
+                                        <a class="custom-button" href="#">Get Service </a>
                                     </footer>
                                 </li>
                                 <!-- Monthly Pricing Table #3 Ends -->
-                                <!-- Yearly Pricing Table #3 Starts -->
-                                <li data-type="yearly" class="is-hidden">
-                                    <div class="badge-popular">
-                                        <span class="popular">POPULAR</span>
-                                    </div>
-                                    <header class="pricing-header">
-                                        <h2>gold</h2>
-                                        <div class="price-content">
-                                            <span class="currency">$</span>
-                                            <span class="value">899</span>
-                                            <span class="duration">yr</span>
-                                        </div>
-                                    </header>
-                                    <div class="pricing-body">
-                                        <ul class="pricing-features">
-                                            <li><em>unlimited</em> disk space</li>
-                                            <li><em>unlimited</em> email accounts</li>
-                                            <li><em>unlimited</em> subomains</li>
-                                        </ul>
-                                    </div>
-                                    <footer class="pricing-footer">
-                                        <a class="custom-button" href="#">add to cart</a>
-                                    </footer>
-                                </li>
-                                <!-- Yearly Pricing Table #3 Ends -->
-                            </ul>
+                                </ul>
                         </li>
                     </ul>
                 </div>
